@@ -20,3 +20,11 @@ https://www.codecademy.com/learn/introduction-to-javascript
     - [ ] Compatibilidad con navegadores
     - [ ] Modulos
     - [ ] Solicitudes
+
+
+
+# Referencias 
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introducci%C3%B3n
+
+https://www.w3schools.com/js/default.asp
