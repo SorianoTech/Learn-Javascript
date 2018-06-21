@@ -1,4 +1,7 @@
-
+/*Getters and Setters I (Captadores y definidores)
+_ se utiliza par indicar a los desarrolladores que no debe ser modificada directamente por otro código.
+Se recomienda antepone todas las propiedades con un guion bajo y crear definidores (setters) para todos los atributos que queremos acceder mas tarde.
+*/  
   let person = {
     _name: 'Lu Xun',
     _age: 137,
@@ -13,7 +16,6 @@
         return 'Invalid input';
       }
     }
-  
   };
 
-//Getters and Setters II
+

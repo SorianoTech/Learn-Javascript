@@ -22,6 +22,15 @@ https://www.codecademy.com/learn/introduction-to-javascript
     - [ ] Solicitudes
 
 
+Objetos
+-------
+* Los objetos guardan pares de clave-valor y nos permiten representar cosas del mundo real en JavaScrip
+* Las propiedades de los objetos estan separadas por comas. Y las propiedades de clave-valor por dos puntos.
+* Se puede agregar o editar un propiedad dentro de un objeto usando los dos puntos.
+* Un método es una función en un objeto.
+* "This", nos ayuda con el alcance dentro de los métodos del objeto. "this" es una variable que puede cambiar dependiendo del objeto que llame al método.
+* Los métodos Getter(get) y setter(set) me permiten procesar datos antes de acceder o establecer valores. 
+
 
 # Referencias 
 
