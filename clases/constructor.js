@@ -33,8 +33,10 @@ const surgeonCurry = new Surgeon('Curry','Cardiovascular');
 const surgeonDurant = new Surgeon('Durant','Orthopedics');
 console.log(surgeonCurry.name);
 console.log(surgeonCurry.department);
+
 //imprimimos el valor de la instancia creada
 console.log(surgeonCurry.name);
+
 //llamamos a la funcion e imprimimos el valor de remainingVacations 
 surgeonCurry.takeVacationDays(3);
 console.log(surgeonCurry.remainingVacationDays);
