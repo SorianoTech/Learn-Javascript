@@ -1,8 +1,9 @@
-//*
+/** 
  * Utilizamos la palabra clave static para generar metodos que solo sean usados desde la clase que 
  * hemos creado.
  * 
- */
+ *
+ **/
 
 class HospitalEmployee {
     constructor(name) {
@@ -21,6 +22,11 @@ class HospitalEmployee {
     takeVacationDays(daysOff) {
       this._remainingVacationDays -= daysOff;
     }
+    //Creamos un metodo statico para generar una password que sea un numero aleatorio entre 0 y 10000
+   static generatePassword() {
+    const randomNumber = Math.floor(Math.random()*10000);
+    return randomNumber;
+  }
   }
   
   class Nurse extends HospitalEmployee {
