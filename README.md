@@ -57,8 +57,8 @@ En este proyecto iremos describiendo los pasos que he ido realizado para aprende
 
 Los módulos en JavaScript son piezas de código reutilizables que se pueden exportar de un programa e importar para usar en otro programa.
 
-<module.exports> exporta el módulo para usar en otro programa.
-<require ()> importa el módulo para usarlo en el programa actual.
+``module.exports`` exporta el módulo para usar en otro programa.
+``require ()`` importa el módulo para usarlo en el programa actual.
 
 ES6 introdujo una sintaxis más flexible y sencilla para exportar módulos:
 - Las exportaciones predeterminadas usan la exportación predeterminada para exportar objetos JavaScript, funciones y tipos de datos primitivos.
