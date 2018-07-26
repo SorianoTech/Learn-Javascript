@@ -61,10 +61,10 @@ Los módulos en JavaScript son piezas de código reutilizables que se pueden exp
 <require ()> importa el módulo para usarlo en el programa actual.
 
 ES6 introdujo una sintaxis más flexible y sencilla para exportar módulos:
--Las exportaciones predeterminadas usan la exportación predeterminada para exportar objetos JavaScript, funciones y tipos de datos primitivos.
--Las exportaciones con nombre utilizan la palabra clave export para exportar datos en variables.
+- Las exportaciones predeterminadas usan la exportación predeterminada para exportar objetos JavaScript, funciones y tipos de datos primitivos.
+- Las exportaciones con nombre utilizan la palabra clave export para exportar datos en variables.
 las exportaciones con nombre se pueden alias con la palabra clave "as".
--Importación es una palabra clave que importa cualquier objeto, función o tipo de datos.
+- Importación es una palabra clave que importa cualquier objeto, función o tipo de datos.
 
 ## Solicitudes
 
