@@ -6,7 +6,7 @@ En este proyecto iremos describiendo los pasos que he ido realizado para aprende
 
 <https://www.codecademy.com/learn/introduction-to-javascript>
 
-- Trabajaremos los siguiente:
+- Trabajaremos lo siguiente:
   - [x] Introducción
   - [x] Control Flow
   - [x] Funciones
