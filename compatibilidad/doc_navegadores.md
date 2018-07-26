@@ -2,12 +2,12 @@
 
 En esta lección aprenderemos como abordar la brecha entre la nueva sintaxis de JavaScript que es utilizada y la sintaxis de JavaScript que reconocen los navegadores web.
 
-La organización responsable de la estandarización de JavaScript es Ecma International que lanzo la versión en 2015 ECMAScript2015, comúnmente conocido como ES6. 
+La organización responsable de la estandarización de JavaScript es ECMA International que lanzo la versión en 2015 ECMAScript2015, comúnmente conocido como ES6. 
 El 6 se refiere a la versión de Javascript es la ES6 que tiene que ver con el año en que es liberada.
   
 Después de la actualización la mayoría de los navegadores no soportaban la versión ES6.
   
-En esta lección, aprenderemos sobre dos herramientas importantes para abordar los problemas 
+Conoceremos dos herramientas importantes para abordar los problemas
 de compatibilidad del navegador.
   
   caniuse.com -> Un sitio web que proporciona datos sobre la compatibilidad del navegador web
@@ -40,7 +40,7 @@ podemos ver el codigo ES5 en la carpeta ./lib/main.js
 
 Para transpilar un codigo escrito en ES6 a ES5 tenemos:
 
-1. guardar el ficher .js en la carpeta ./src/main.js
+1. Guardar el ficher .js en la carpeta ./src/main.js
 La estructura de ficheros sería project/src/main.js
 Es de donde va a tirar npm para compilar y realizar la transformación.
 

@@ -17,7 +17,7 @@ En este proyecto iremos describiendo los pasos que he ido realizado para aprende
   - [x] Objetos
   - [x] Clases
   - [X] Compatibilidad con navegadores
-  - [ ] Modulos
+  - [X] Modulos
   - [ ] Solicitudes
 
 ## Objetos
@@ -39,6 +39,7 @@ En este proyecto iremos describiendo los pasos que he ido realizado para aprende
  - Los metodos estaticos se invocan en la clase pero no en las instancias de las clases.
 
 ## Compatibilidad y navegadores
+
 - ES5: la versión anterior de JavaScript compatible con todos los navegadores web modernos.
 - ES6 - La nueva versión de JavaScript que no es compatible con todos los navegadores web modernos. La sintaxis es más legible, similar a otros lenguajes de programación, y soluciona los errores comunes en ES5.
 - caniuse.com - un sitio web que puede usar para buscar información de compatibilidad de navegador HTML, CSS y JavaScript.
@@ -51,6 +52,21 @@ En este proyecto iremos describiendo los pasos que he ido realizado para aprende
 - .babelrc: archivo que especifica la versión del código fuente de JavaScript.
 - Script "build": un script package.json que usa para transformar el código ES6 + en ES5.
 - npm run build: un comando que ejecuta el script de compilación y transformación el código ES6 + a ES5.
+
+## Módulos
+
+Los módulos en JavaScript son piezas de código reutilizables que se pueden exportar de un programa e importar para usar en otro programa.
+
+<module.exports> exporta el módulo para usar en otro programa.
+<require ()> importa el módulo para usarlo en el programa actual.
+
+ES6 introdujo una sintaxis más flexible y sencilla para exportar módulos:
+-Las exportaciones predeterminadas usan la exportación predeterminada para exportar objetos JavaScript, funciones y tipos de datos primitivos.
+-Las exportaciones con nombre utilizan la palabra clave export para exportar datos en variables.
+las exportaciones con nombre se pueden alias con la palabra clave "as".
+-Importación es una palabra clave que importa cualquier objeto, función o tipo de datos.
+
+## Solicitudes
 
 ## Referencias 
 
